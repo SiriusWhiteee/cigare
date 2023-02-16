@@ -1,0 +1,134 @@
+body{
+    display: flex;
+    
+}
+
+#gauche {
+    display: grid;
+    grid-template-rows: repeat(auto,300px);
+    width: 40%;
+    margin-top: 105px;
+}
+
+#droite{
+    width: 40%;
+    margin-top: 105px;
+}
+
+.smokingkills{  
+    display: -webkit-box;
+    margin-left: auto;
+    height: 98px;
+    width:  auto;
+}
+
+
+#categorie {
+    display: grid;
+    grid-template-columns: 10% 10% 80%;
+    height: 100%;
+}
+
+#menu{
+    position: fixed;
+    margin-top: -5px;
+    margin-left: -5px;
+    width: 100%;
+    height: 100px;
+    background-color: rgba(80, 35, 10, 0.924);
+    z-index: 1;
+}
+
+#main{
+    display: grid;
+    grid-template-rows: repeat(auto,250px);
+    margin-top: 105px;
+     
+}
+
+#home{
+    text-align: center;
+    color: chocolate;
+ 
+}
+
+#smokingroom {
+    text-align: left;
+    text-justify: center;
+    margin-left: 50px;
+    color: chocolate;
+}
+
+
+.image{
+    height: auto;
+    width: 100%;
+}
+
+.romeoyjulietta{
+    width: 65%;
+    font: 1.2em "Impact Regular";
+    font-size: 30px;
+    margin-left: 50px;
+    text-align: left;
+    text-justify: center;
+}
+
+.montechristo{
+    width: 65%;
+    font: 1.2em "Berlin Sans FB";
+    font-size: 30px;
+    margin-left: 50px;
+    text-align:left;
+    vertical-align: top;
+}
+
+.produit{
+    display: inline-flex;
+    flex-direction: row;
+    border-bottom: 1px solid black;
+}
+
+.leftpart{
+    align-items: flex-start;
+    width: 60%;
+}
+
+.origin{
+    text-align: center;
+    font: 1.2em "Verdana";
+    font-size: 25px;
+}
+
+.wrapper{
+    text-align: center;
+    font: 1.2em "Verdana";
+    font-size: 25px;
+}
+
+.details{
+    align-items: center;
+    justify-content: center;
+    vertical-align: top;
+    border: none;
+    border-radius: 10px;
+    width: 95%;
+    height: 75%;
+    font: 1.2em "Verdana";
+    font-size: 20px;
+}
+
+.ajout{
+    border: none;
+    border-radius: 10px;
+    width: 95%;
+    height: 75%;
+    font: 1.2em "Verdana";
+    font-size: 20px;
+}
+
+.rightpart{
+    width: 40%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
